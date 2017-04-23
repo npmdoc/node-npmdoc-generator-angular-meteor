@@ -1,0 +1,1008 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/ndxbxrme/generator-angular-meteor">generator-angular-meteor (v0.21.0)</a>
+</h1>
+<h4>Yeoman generator for creating AngularJS + Meteor applications</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.generator-angular-meteor">module generator-angular-meteor</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.</span>index
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">generator-angular-meteor.</span>index.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">generator-angular-meteor.</span>util</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.generator-angular-meteor.index">module generator-angular-meteor.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.index">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.</span>index
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.extend">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.</span>extend
+            <span class="apidocSignatureSpan">(protoProps, staticProps)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.super_">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.</span>super_
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">generator-angular-meteor.index.</span>__super__</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.generator-angular-meteor.index.prototype">module generator-angular-meteor.index.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.authPrompts">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>authPrompts
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.changeDirectory">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>changeDirectory
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.checkForConfig">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>checkForConfig
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.cleanMeteorDirectory">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>cleanMeteorDirectory
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.clientPrompts">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>clientPrompts
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.createMeteorProject">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>createMeteorProject
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.info">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>info
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.init">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>init
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.launchMeteor">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>launchMeteor
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.loadMeteorPackages">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>loadMeteorPackages
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.removeMeteorPackages">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>removeMeteorPackages
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.updateMeteorPackages">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>updateMeteorPackages
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.windowsXCheck">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>windowsXCheck
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.index.prototype.write">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>write
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.generator-angular-meteor.util">module generator-angular-meteor.util</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.util.spawnSync">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.util.</span>spawnSync
+            <span class="apidocSignatureSpan">(command, args, cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.generator-angular-meteor.util.write">
+            function <span class="apidocSignatureSpan">generator-angular-meteor.util.</span>write
+            <span class="apidocSignatureSpan">(self, options, cb)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.generator-angular-meteor" id="apidoc.module.generator-angular-meteor">module generator-angular-meteor</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index" id="apidoc.element.generator-angular-meteor.index">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.</span>index
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">index = function () { return parent.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.generator-angular-meteor.index" id="apidoc.module.generator-angular-meteor.index">module generator-angular-meteor.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.index" id="apidoc.element.generator-angular-meteor.index.index">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.</span>index
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">index = function () { return parent.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.extend" id="apidoc.element.generator-angular-meteor.index.extend">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.</span>extend
+        <span class="apidocSignatureSpan">(protoProps, staticProps)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function extend(protoProps, staticProps) {
+  var parent = this;
+  var child;
+
+  // The constructor function for the new subclass is either defined by you
+  // (the "constructor" property in your `extend` definition), or defaulted
+  // by us to simply call the parent's constructor.
+  if (protoProps &amp;&amp; hasOwnProp.call(protoProps, 'constructor')) {
+    child = protoProps.constructor;
+  } else {
+    child = function () { return parent.apply(this, arguments); };
+  }
+
+  // Add static properties to the constructor function, if supplied.
+  objectAssign(child, parent, staticProps);
+
+  // Set the prototype chain to inherit from `parent`
+  child.prototype = Object.create(parent.prototype, {
+    constructor: {
+      value: child,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+
+  // Add prototype properties (instance properties) to the subclass,
+  // if supplied.
+  if (protoProps) objectAssign(child.prototype, protoProps);
+
+  // Set a convenience property in case the parent's prototype is needed
+  // later.
+  child.__super__ = parent.prototype;
+
+  return child;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+meteorToRemove = ['remove', 'blaze-html-templates', 'ecmascript'];
+
+angularModules = ['angular-meteor', 'ui.router'];
+
+is1point3 = false;
+
+module.exports = yeoman.generators.Base.<span class="apidocCodeKeywordSpan">extend</span>({
+  init: function() {
+    this.argument('name', {
+      type: String,
+      required: true
+    });
+    this.argument('dontrun', {
+      type: String,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.super_" id="apidoc.element.generator-angular-meteor.index.super_">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.</span>super_
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventEmitter() {
+  EventEmitter.init.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.generator-angular-meteor.index.prototype" id="apidoc.module.generator-angular-meteor.index.prototype">module generator-angular-meteor.index.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.authPrompts" id="apidoc.element.generator-angular-meteor.index.prototype.authPrompts">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>authPrompts
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">authPrompts = function () {
+  var cb, self;
+  cb = this.async();
+  self = this;
+  this.prompt([
+    {
+      type: 'confirm',
+      name: 'auth',
+      message: 'Would you like to use user authentication?'
+    }, {
+      type: 'checkbox',
+      name: 'oauth',
+      message: 'Would you like to include additional oAuth strategies?',
+      when: function(answers) {
+        return answers.auth;
+      },
+      choices: [
+        {
+          value: 'googleAuth',
+          name: 'Google',
+          checked: false
+        }, {
+          value: 'facebookAuth',
+          name: 'Facebook',
+          checked: false
+        }, {
+          value: 'twitterAuth',
+          name: 'Twitter',
+          checked: false
+        }
+      ]
+    }
+  ], (function(answers) {
+    this.filters.auth = !!answers.auth;
+    if (answers.oauth) {
+      if (answers.oauth.length) {
+        this.filters.oauth = true;
+      }
+      answers.oauth.forEach((function(oauthStrategy) {
+        this.filters[oauthStrategy] = true;
+      }).bind(this));
+    }
+    cb();
+  }).bind(this));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.changeDirectory" id="apidoc.element.generator-angular-meteor.index.prototype.changeDirectory">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>changeDirectory
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">changeDirectory = function () {
+  var cb;
+  cb = this.async();
+  if (!fs.existsSync(process.cwd() + '/' + this.appname)) {
+    this.log('Something went wrong running meteor, please make sure you have it installed properly.  https://www.meteor.com/');
+    return;
+  }
+  process.chdir(process.cwd() + '/' + this.appname);
+  this.destinationRoot(process.cwd());
+  this.config.set('filters', this.filters);
+  this.config.set('appname', this.appname);
+  cb();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.checkForConfig" id="apidoc.element.generator-angular-meteor.index.prototype.checkForConfig">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>checkForConfig
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">checkForConfig = function () {
+  var cb;
+  cb = this.async();
+  if (this.config.get('filters')) {
+    this.log('The generator has already been run');
+    return;
+  }
+  if (fs.existsSync(process.cwd() + '/' + this.appname)) {
+    this.log('The generator has already been run.  CD into the directory');
+    return;
+  }
+  cb();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.cleanMeteorDirectory" id="apidoc.element.generator-angular-meteor.index.prototype.cleanMeteorDirectory">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>cleanMeteorDirectory
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cleanMeteorDirectory = function () {
+  var cb;
+  cb = this.async();
+  ['.html', '.css', '.js'].forEach((function(ext) {
+    try {
+      fs.unlinkSync(process.cwd() + '/' + this.appname + ext);
+    } catch (_error) {}
+  }).bind(this));
+  ['client/main.html', 'client/main.css', 'client/main.js', 'server/main.js'].forEach((function(fileName) {
+    try {
+      fs.unlinkSync(process.cwd() + '/' + fileName);
+      is1point3 = true;
+    } catch (_error) {}
+  }).bind(this));
+  cb();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.clientPrompts" id="apidoc.element.generator-angular-meteor.index.prototype.clientPrompts">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>clientPrompts
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">clientPrompts = function () {
+  var cb;
+  cb = this.async();
+  this.prompt([
+    {
+      type: 'list',
+      name: 'script',
+      message: 'What would you like to write scripts with?',
+      choices: ['JavaScript', 'CoffeeScript'],
+      "default": 1,
+      filter: function(val) {
+        var filterMap;
+        filterMap = {
+          'JavaScript': 'js',
+          'CoffeeScript': 'coffee'
+        };
+        return filterMap[val];
+      }
+    }, {
+      type: 'list',
+      name: 'markup',
+      message: 'What would you like to write markup with?',
+      "default": 1,
+      choices: ['HTML', 'Jade'],
+      filter: function(val) {
+        return val.toLowerCase();
+      }
+    }, {
+      type: 'list',
+      name: 'stylesheet',
+      "default": 1,
+      message: 'What would you like to write stylesheets with?',
+      choices: ['CSS', 'Stylus', 'Less', 'SCSS'],
+      filter: function(val) {
+        return val.toLowerCase();
+      }
+    }, {
+      type: 'confirm',
+      name: 'pagination',
+      message: 'Would you like pagination, sorting and searching support?'
+    }, {
+      type: 'list',
+      name: 'framework',
+      message: 'Select a CSS framework',
+      "default": 1,
+      choices: ['None', 'Bootstrap', 'Angular Material', 'Ionic'],
+      filter: function(val) {
+        var filterMap;
+        filterMap = {
+          'None': 'none',
+          'Angular Material': 'material',
+          'Bootstrap': 'bootstrap',
+          'PureCSS': 'purecss',
+          'Foundation for Apps': 'foundationapps',
+          'Ionic': 'ionic'
+        };
+        return filterMap[val];
+      }
+    }
+  ], (function(answers) {
+    this.filters = {};
+    this.filters[answers.script] = true;
+    this.filters[answers.markup] = true;
+    this.filters[answers.stylesheet] = true;
+    this.filters.pagination = !!answers.pagination;
+    this.filters.framework = answers.framework;
+    cb();
+  }).bind(this));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.createMeteorProject" id="apidoc.element.generator-angular-meteor.index.prototype.createMeteorProject">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>createMeteorProject
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">createMeteorProject = function () {
+  var cb;
+  cb = this.async();
+  genUtils.spawnSync('meteor', ['create', this.appname], cb);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.info" id="apidoc.element.generator-angular-meteor.index.prototype.info">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>info
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">info = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.init" id="apidoc.element.generator-angular-meteor.index.prototype.init">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>init
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">init = function () {
+  this.argument('name', {
+    type: String,
+    required: true
+  });
+  this.argument('dontrun', {
+    type: String,
+    required: false
+  });
+  this.appname = this.name || path.basename(process.cwd());
+  this.appname = _.camelize(_.slugify(_.humanize(this.appname)));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.launchMeteor" id="apidoc.element.generator-angular-meteor.index.prototype.launchMeteor">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>launchMeteor
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">launchMeteor = function () {
+  if (!this.dontrun) {
+    this.spawnCommand('meteor', null, null);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.loadMeteorPackages" id="apidoc.element.generator-angular-meteor.index.prototype.loadMeteorPackages">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>loadMeteorPackages
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">loadMeteorPackages = function () {
+  var cb;
+  cb = this.async();
+  if (this.filters.coffee) {
+    meteorToAdd.push('ndxbxrme:ng-coffeescript');
+  }
+  if (this.filters.stylus) {
+    meteorToAdd.push('mquandalle:stylus');
+  }
+  if (this.filters.less) {
+    meteorToAdd.push('flemay:less-autoprefixer');
+  }
+  if (this.filters.scss) {
+    meteorToAdd.push('fourseven:scss');
+  }
+  if (this.filters.jade) {
+    meteorToAdd.push('civilframe:angular-jade');
+  }
+  if (this.filters.framework === 'material') {
+    meteorToAdd.push('angular:angular-material');
+    angularModules.push('ngMaterial');
+  }
+  if (this.filters.framework === 'bootstrap') {
+    meteorToAdd.push('twbs:bootstrap');
+    meteorToAdd.push('angularui:angular-ui-bootstrap');
+    angularModules.push('ui.bootstrap');
+  }
+  if (this.filters.framework === 'purecss') {
+    meteorToAdd.push('mrt:purecss');
+  }
+  if (this.filters.framework === 'foundationapps') {
+    meteorToAdd.push('rainhaven:foundation-apps');
+  }
+  if (this.filters.framework === 'ionic') {
+    meteorToAdd.splice(meteorToAdd.indexOf('angularui:angular-ui-router'), 1);
+    meteorToAdd.push('driftyco:ionic');
+    angularModules.splice(angularModules.indexOf('ui-router'), 1);
+    angularModules.push('ionic');
+  }
+  if (this.filters.bower) {
+    meteorToAdd.push('mquandalle:bower');
+  }
+  if (this.filters.pagination) {
+    meteorToAdd.push('tmeasday:publish-counts');
+    meteorToAdd.push('angularutils:pagination');
+    angularModules.push('angularUtils.directives.dirPagination');
+  }
+  if (this.filters.auth) {
+    meteorToAdd.push('accounts-password');
+    meteorToAdd.push('dotansimha:accounts-ui-angular');
+    angularModules.push('accounts.ui');
+  }
+  if (this.filters.twitterAuth) {
+    meteorToAdd.push('accounts-twitter');
+  }
+  if (this.filters.facebookAuth) {
+    meteorToAdd.push('accounts-facebook');
+  }
+  if (this.filters.googleAuth) {
+    meteorToAdd.push('accounts-google');
+  }
+  genUtils.spawnSync('meteor', meteorToAdd, cb);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.removeMeteorPackages" id="apidoc.element.generator-angular-meteor.index.prototype.removeMeteorPackages">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>removeMeteorPackages
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removeMeteorPackages = function () {
+  var cb;
+  cb = this.async();
+  if (this.filters.auth) {
+    meteorToRemove.push('insecure');
+  }
+  if (this.filters.pagination) {
+    meteorToRemove.push('autopublish');
+  }
+  if (meteorToRemove.length &gt; 1) {
+    genUtils.spawnSync('meteor', meteorToRemove, cb);
+  } else {
+    cb();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.updateMeteorPackages" id="apidoc.element.generator-angular-meteor.index.prototype.updateMeteorPackages">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>updateMeteorPackages
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">updateMeteorPackages = function () {
+  var cb, meteorToUpdate;
+  if (is1point3) {
+    cb = this.async();
+    meteorToUpdate = meteorToAdd;
+    meteorToUpdate[0] = 'update';
+    meteorToUpdate.push('angular:angular');
+    meteorToUpdate.push('dburles:mongo-collection-instances');
+    meteorToUpdate.push('lai:collection-extensions');
+    meteorToUpdate.push('pbastowski:angular-babel');
+    if (this.filters.auth) {
+      meteorToUpdate.push('dotansimha:accounts-ui-angular');
+      meteorToUpdate.push('tmeasday:check-npm-versions');
+    }
+    genUtils.spawnSync('meteor', meteorToUpdate, cb);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.windowsXCheck" id="apidoc.element.generator-angular-meteor.index.prototype.windowsXCheck">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>windowsXCheck
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">windowsXCheck = function () {
+  var cb;
+  cb = this.async();
+  if (os.platform().indexOf('win') !== -1 &amp;&amp; os.release().indexOf('10') === 0) {
+    this.prompt([
+      {
+        type: 'input',
+        name: 'hmmmm',
+        message: 'Hit Enter to get started'
+      }
+    ], (function() {
+      cb();
+    }).bind(this));
+  } else {
+    cb();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.index.prototype.write" id="apidoc.element.generator-angular-meteor.index.prototype.write">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.index.prototype.</span>write
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">write = function () {
+  this.filters.appname = this.appname + 'App';
+  this.filters.projectname = this.config.get('appname');
+  this.filters.modules = '\'' + (this.filters.js ? angularModules.join('\',\n  \'') : angularModules.join('\'\n  \'')) + '\'';
+  this.filters.usedBower = this.filters.bower === true;
+  this.filters.bower = false;
+  this.config.set('filters', this.filters);
+  this.sourceRoot(path.join(__dirname, './templates/' + this.filters.framework));
+  genUtils.write(this, this.filters);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this.filters.appname = this.appname + 'App';
+    this.filters.projectname = this.config.get('appname');
+    this.filters.modules = '\'' + (this.filters.js ? angularModules.join('\',\n  \'') : angularModules
+.join('\'\n  \'')) + '\'';
+    this.filters.usedBower = this.filters.bower === true;
+    this.filters.bower = false;
+    this.config.set('filters', this.filters);
+    this.sourceRoot(path.join(__dirname, './templates/' + this.filters.framework));
+    genUtils.<span class="apidocCodeKeywordSpan">write</span>(this, this.filters);
+  },
+  launchMeteor: function() {
+    if (!this.dontrun) {
+      this.spawnCommand('meteor', null, null);
+    }
+  }
+});
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.generator-angular-meteor.util" id="apidoc.module.generator-angular-meteor.util">module generator-angular-meteor.util</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.util.spawnSync" id="apidoc.element.generator-angular-meteor.util.spawnSync">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.util.</span>spawnSync
+        <span class="apidocSignatureSpan">(command, args, cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">spawnSync = function (command, args, cb) {
+  var poll, result;
+  result = spawn(command, args, {
+    stdio: 'inherit'
+  });
+  poll = function() {
+    if (result._closesGot === 1) {
+      if (typeof cb === "function") {
+        cb();
+      }
+    } else {
+      setTimeout(poll, 500);
+    }
+  };
+  poll();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    }
+    cb();
+  }).bind(this));
+},
+createMeteorProject: function() {
+  var cb;
+  cb = this.async();
+  genUtils.<span class="apidocCodeKeywordSpan">spawnSync</span>('meteor', ['create', this.appname], cb);
+},
+changeDirectory: function() {
+  var cb;
+  cb = this.async();
+  if (!fs.existsSync(process.cwd() + '/' + this.appname)) {
+    this.log('Something went wrong running meteor, please make sure you have it installed properly.  https://www.meteor.com
+/');
+    return;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.generator-angular-meteor.util.write" id="apidoc.element.generator-angular-meteor.util.write">
+        function <span class="apidocSignatureSpan">generator-angular-meteor.util.</span>write
+        <span class="apidocSignatureSpan">(self, options, cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">write = function (self, options, cb) {
+  var files;
+  if (!self.filters.jade) {
+    self.filters.jade = false;
+  }
+  files = glob('**', {
+    dot: true,
+    cwd: self.sourceRoot()
+  }, (function(err, files) {
+    var dest, src;
+    src = void 0;
+    dest = void 0;
+    files.forEach((function(f) {
+      var filter, newname;
+      if (f.search(/\.(js|coffee|html|jade|css|scss|less|styl)$/) &gt; -1 || f.indexOf('_') === 0) {
+        for (filter in self.filters) {
+          if (self.filters[filter]) {
+            if (f.indexOf('(' + filter + ')') !== -1 || f.indexOf('(') === -1) {
+              newname = f.replace('(' + filter + ')', '');
+              try {
+                self.fs.copyTpl(self.templatePath(f), self.destinationPath(newname.replace(/^_/, '').replace('compname-singular',
+options.compnameSluggedSingular || options.compnameSingular).replace('compname', options.compnameSlugged || self.compname)), options
+);
+              } catch (_error) {
+                err = _error;
+                console.log(err, options);
+              }
+              break;
+            }
+          }
+        }
+      } else if (f.search(/\.(ico)$/) &gt; -1) {
+        self.copy(self.templatePath(f), self.destinationPath(f));
+      }
+    }).bind(self));
+    if (cb) {
+      cb();
+    }
+  }).bind(self));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this.filters.appname = this.appname + 'App';
+    this.filters.projectname = this.config.get('appname');
+    this.filters.modules = '\'' + (this.filters.js ? angularModules.join('\',\n  \'') : angularModules
+.join('\'\n  \'')) + '\'';
+    this.filters.usedBower = this.filters.bower === true;
+    this.filters.bower = false;
+    this.config.set('filters', this.filters);
+    this.sourceRoot(path.join(__dirname, './templates/' + this.filters.framework));
+    genUtils.<span class="apidocCodeKeywordSpan">write</span>(this, this.filters);
+  },
+  launchMeteor: function() {
+    if (!this.dontrun) {
+      this.spawnCommand('meteor', null, null);
+    }
+  }
+});
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
