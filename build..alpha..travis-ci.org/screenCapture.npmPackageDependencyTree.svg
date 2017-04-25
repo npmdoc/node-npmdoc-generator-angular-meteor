@@ -236,7 +236,7 @@
 <tspan x="10" y="3738">    │ │ │ │ ├── filename-regex@2.0.0 </tspan>
 <tspan x="10" y="3754">    │ │ │ │ ├── is-extglob@1.0.0 </tspan>
 <tspan x="10" y="3770">    │ │ │ │ ├── is-glob@2.0.1 </tspan>
-<tspan x="10" y="3786">    │ │ │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="3786">    │ │ │ │ ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="3802">    │ │ │ │ │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="3818">    │ │ │ │ ├─┬ normalize-path@2.1.1 </tspan>
 <tspan x="10" y="3834">    │ │ │ │ │ └── remove-trailing-separator@1.0.1 </tspan>
